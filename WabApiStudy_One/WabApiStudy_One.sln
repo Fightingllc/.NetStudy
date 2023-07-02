@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabApiStudy_One", "WabApiStudy_One\WabApiStudy_One.csproj", "{5D457558-DF0D-43AA-A047-1E25FD86AE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D457558-DF0D-43AA-A047-1E25FD86AE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D457558-DF0D-43AA-A047-1E25FD86AE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D457558-DF0D-43AA-A047-1E25FD86AE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D457558-DF0D-43AA-A047-1E25FD86AE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1372CB35-377F-4EB8-B414-B3183E9BAF3F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/react/18.2.0/cjs/react-jsx-dev-runtime.development.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js"></script> -->
+    <script crossorigin src="https://cdn.bootcdn.net/ajax/libs/react/17.0.2/umd/react.development.js"></script>
+    <script crossorigin src="https://cdn.bootcdn.net/ajax/libs/react-dom/17.0.2/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+        
+
+        function Blog() {
+            const [userName,setUserName] = React.useState("morning");
+         const getData=() => {
+            axios.get("https://localhost:44327/api/Router/Get3")
+            .then(Response => {
+                
+                console.log(Response.data)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+            setUserName(Response.data)
+        }
+        return (
+            <div>
+                    <h2>{userName}</h2>
+                  <button onClick = {getData}>OnClick</button>
+            </div>
+
+        )
+        }
+        ReactDOM.render(<Blog />,document.getElementById('root'))
+    </script>
+</body>
+
+</html>
