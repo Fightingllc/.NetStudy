@@ -1,4 +1,5 @@
-﻿// 随机数
+﻿
+// 随机数
 /// <summary>
 /// 类的实例称为对象，对象就是类的实例
 /// new 操作符
@@ -70,3 +71,38 @@ if(message.Contains("day"))
     Console.WriteLine("no day");
 }
 
+// 数组 C#中的数组初始需要设定长度，一旦设置，后面不能对数组进行增删操作
+string[] arr1 = new string[3];
+string[] arr2 = new string[5] {"a","b","c","d","e"};
+
+arr2[4] = "西瓜";
+
+Console.WriteLine(arr2); //System.String[]
+
+// 逐个输出数组元素
+foreach(string item in arr2)
+{
+    Console.WriteLine(item);
+}
+// 或者将数组元素拼接为字符串后输出
+string joinArr = string.Join(",", arr2);
+Console.WriteLine(joinArr);
+
+/** 
+在 C# 中，数组的大小是固定的，一旦创建后无法直接插入新的数据。
+如果您需要在数组中插入新的数据，最好的做法是使用动态数据结构，例如 List<T>。
+
+*/
+List<string> fraudulentOrderIDs = new List<string> { "A123", "B456", "C789" };
+
+// 在指定位置插入新数据
+fraudulentOrderIDs.Insert(1, "D987"); // 在索引位置 1 插入新数据 "D987"
+
+// 或者在末尾添加新数据
+fraudulentOrderIDs.Add("E321"); // 在末尾添加新数据 "E321"
+
+// 使用 foreach 遍历列表
+foreach (string orderID in fraudulentOrderIDs)
+{
+    Console.WriteLine(orderID);
+}

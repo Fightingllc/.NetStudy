@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\后端\\_NetStudy\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "D:\\后端\\study\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "D:\\后端\\_NetStudy\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "D:\\后端\\study\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\后端\\_NetStudy\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "D:\\后端\\study\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "D:\\后端\\_NetStudy\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "D:\\后端\\study\\.NetStudy\\CsharpProjects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\刘凌晨\\.nuget\\packages\\",
-        "outputPath": "D:\\后端\\_NetStudy\\.NetStudy\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "D:\\后端\\study\\.NetStudy\\CsharpProjects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vs-studio\\Shared\\NuGetPackages"
